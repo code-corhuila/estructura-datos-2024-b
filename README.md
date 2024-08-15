@@ -22,3 +22,9 @@
 
 # Obtener cambios
    - `git pull` 
+
+# Realizar cambios
+   - `git pull`
+   - `git add -A`
+   - `git commit -m "Mensaje de cambio"`
+   - `git push`   

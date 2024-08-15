@@ -9,4 +9,16 @@
 
 ## Autenticar la cuenta.
 1. Tipos de auth.
-   - `Usar auth por defecto.`
+   - `Usar auth por defecto - navegador.`
+
+## Eliminar la auth. 
+   - Administrar credenciales de windows 
+   - Credenciales de windows 
+   - Buscar el gestor git (github)
+   - Quitar
+  
+# Clonar repositorio
+   - `git clone https://github.com/code-corhuila/estructura-datos-2024-b.git`
+
+# Obtener cambios
+   - `git pull` 

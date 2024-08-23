@@ -5,6 +5,11 @@ public class EjemploJava {
 
         double a = "Pepito Perez";
         System.out.println(a);
+
+        Integer numero = 10;
+        
+        Double dato = 10.5;
+        dato.
     }
 
     public static String Mensaje() {

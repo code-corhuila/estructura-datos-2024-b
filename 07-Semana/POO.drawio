@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="H37WpnvdxtTepjWWDejD">
+    <mxGraphModel dx="1430" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-2" value="Package" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-3" value="&lt;b&gt;Nombre&lt;/b&gt;&lt;br&gt;{abstract, implement}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-5" value="atributo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-3">
+          <mxGeometry y="55" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-15" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-3">
+          <mxGeometry y="75" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-7" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-3">
+          <mxGeometry y="95" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-3">
+          <mxGeometry y="115" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-10" value="Metodos" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-3">
+          <mxGeometry y="123" width="140" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-11" value="Toda clase tiene un nombre. Esta clase puede ser abstracta o realizada" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-13" value="Los atributos corresponden a las características de la entidad o clase. Los atributos corresponden a un tpo de dato.&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="296.5" width="170" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-16" value="Corresponde a las operaciones que se puedan realizar con esa clase" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="170" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-17" value="&lt;b&gt;Persona&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="140" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-18" value="nombre" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="55" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-19" value="apellido" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="75" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-20" value="documento" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="95" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-23" value="tipoDocumento" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="115" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="135" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-22" value="Caminar() void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="143" width="140" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-24" value="CalcularEdad(Integer x) Integer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="170" width="140" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="qIVT3n_WB9fcZ7K4CrMq-25" value="ImprmirNombre() void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="qIVT3n_WB9fcZ7K4CrMq-17">
+          <mxGeometry y="197" width="140" height="27" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,3 +1,4 @@
+import Area.Cuadrado;
 import Funciones.Capturar;
 import Funciones.Imprimir;
 
@@ -19,5 +20,10 @@ public class Main {
 
         imprimir.setMensaje(edad.toString());
         imprimir.ImprimirJOPtionPane();
+
+        Double lado = capturar.CapturarDouble("Digite la medida de un lado del cuadrado a analizar: ");
+        Cuadrado cuadrado = new Cuadrado(lado);
+        cuadrado.MostarArea();
+
     }
 }

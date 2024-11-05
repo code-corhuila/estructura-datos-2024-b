@@ -1,0 +1,59 @@
+Proyecto: Estructura de datos
+	opción 1: Backend(API => CRUD) + Fronend(html nativo + css)
+	opción 2: java swing 
+Qué se debe encontrar:
+	1. Verificar la existencia de:
+		Funciones
+		Gestión de Errores
+		Programación Orientada a Objetos (POO)
+		Herencia
+		Métodos de las Colecciones [arraylist, objeto sobre objeto, map]
+		Encapsulamiento
+		Tabla Hash
+		Listas
+		Pilas
+		Colas
+		Lista Enlazada
+		Árbol
+		Árbol Binario
+		Árbol Binario de Búsqueda
+		Grafos
+		Heap
+==============================
+Propuesta: 
+	Parte 1: Solucionar temas con opción 2, es decir, construir en java jframe una software tipo manual. 
+	* Crear formulario jframe con menú que liste todos los temas que se deben demostrar. 
+	* Que el usuario de click sobre cada tema y pueda. 
+		* Ver la expliación teórica del temas
+		* Vel al menos la solución de tres ejemplo sobre ese tema. 
+	
+	Parte 2: CRUD - POO
+	* Backend(API) - Fronend (html-css-[ajax - axios])
+	
+	Cliente
+		id
+		tipoDocumento
+		documento
+		nombre
+		apellido
+	Producto
+		id
+		nombre
+		descripcion
+		cantidad
+		valorUnitario
+	Factura
+		id
+		fecha
+		valorPagar
+		clienteId
+	DetalleFactura
+		id
+		facturaId
+		productoId
+		valorPagar
+		cantidad
+	
+	
+
+		

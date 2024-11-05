@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura de Números y Mayor</title>
+    <!-- Enlace a Bootstrap para estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Función para Capturar N Números y Retornar el Mayor</h2>
+        <p class="mb-3">
+            Este ejercicio consiste en desarrollar una función que permita capturar una cantidad de números especificada por el usuario. 
+            La función almacenará estos números y retornará el número más grande que se haya ingresado. 
+            A continuación, introduce los números uno a uno y presiona "Agregar número". Cuando termines, presiona "Obtener mayor".
+        </p>
+
+        <div class="mb-3">
+            <label for="numberInput" class="form-label">Introduce un número:</label>
+            <input type="number" id="numberInput" class="form-control">
+        </div>
+
+        <button class="btn btn-primary" onclick="addNumber()">Agregar número</button>
+        <button class="btn btn-success" onclick="getLargestNumber()">Obtener mayor</button>
+
+        <h4 class="mt-4">Números ingresados:</h4>
+        <ul id="numbersList" class="list-group mb-4"></ul>
+
+        <h4 id="result" class="text-center text-primary"></h4>
+    </div>
+    <div>
+        <a href="funcion.html" class="btn btn-secondary mx-2">Regresar</a>
+    </div>
+    <script src="ejemplo-1.js"></script>
+    <!-- Enlace a Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
